@@ -54,7 +54,7 @@ const Document = withEmotionCache(
       });
       // reset cache to reapply global styles
       clientStyleData?.reset();
-    });
+    }, []);
 
     return (
       <html lang="en">
